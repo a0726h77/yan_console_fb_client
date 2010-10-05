@@ -1,0 +1,35 @@
+A comand line fasebook publisher
+
+
+First use, you should set the two variables 'email' and 'passwd' in main.py
+
+How to use :
+    $ python main.py 'publish testing...'
+
+
+sciyoshi's pyfacebook at master - GitHub
+http://github.com/sciyoshi/pyfacebook
+
+Old REST API
+http://developers.facebook.com/docs/reference/rest/
+
+
+Thanks to
+
+    wallbox by YurenJu
+     http://github.com/yurenju/wallbox/wiki
+
+    Updating Facebook status using Python
+    http://omouse.typepad.com/blog/2007/04/updating-facebook-status-using-python.html
+
+    Automatic site login using Python urllib2 | Nomad Journey
+    http://www.nomadjourney.com/2009/03/automatic-site-login-using-python-urllib2/
+
+
+
+
+// get session code
+// http://www.facebook.com/code_gen.php?v=1.0&api_key=11e517548871c8813a8923b40009a060
+
+// gain extened permission
+// http://www.facebook.com/authorize.php?api_key=11e517548871c8813a8923b40009a060&v=1.0&ext_perm=status_update
